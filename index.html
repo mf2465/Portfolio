@@ -1,0 +1,212 @@
+<!-- Requisitos del ejercicio práctico Nro 1:
+   
+   Hay que hacer un portafolio que indique:
+•	Quienes son
+•	De dónde son
+•	Hobbies
+•	Listado de tecnologías que vieron durante la cursada
+•	Por qué quieren aprender programación
+Respetar las etiquetas semánticas (header, nav, main, footer). 
+Ver qué formato utilizar para la barra de navegación (ul o con anclas)
+Agregar imágenes, enlaces (internos -> quienes_somos.html, contacto.html, inicio.html, etc. // externos).
+Incluir un apartado con videos interesantes que se encuentren embebidos (etiqueta iframe)
+Agregar un formulario en la parte de contactos que contenga nombre, apellido, correo, un mapa incrustado, el botón enviar.
+ 
+-->
+
+<!DOCTYPE html>
+
+<html lang="es">
+    <style>
+        .div-0 {
+            background-color:  eceff1;
+        }
+
+        .div-1 {
+            background-color:  #f9f2e7;
+        }
+        
+        .div-2 {
+            background-color: #a9cce3;
+        }
+        
+        .div-3 {
+            background-color:   #d4e6f1;
+        }
+        .div-4 {
+            background-color:  #eaf2f8;
+        }
+        
+        .div-5 {
+            background-color:   #bbdefb;
+        }
+        .div-6 {
+            background-color:  #DAF7A6;
+        }
+    </style>
+<head>
+
+    <title>Portfolio Miguel Flores</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body bgcolor="#eceff1">
+
+    <header>
+        <table height="200px">
+            <tr>
+            <td width="10%" ><a href="https://www.linkedin.com/in/mf2465/" target="_blank"> <img src="img/foto4x4.png" alt="Miguel_Flores" ></a>
+            </td>
+            <td width="2"></td>
+            <td width="10" style="background-color: #7998be;"></td>
+            <td width="2"></td>
+            <td width="10" style="background-color: #7998be;"></td>
+            <td width="2"></td>
+            <th style="background-color: #7998be;"> <br><h1>Miguel Flores</h1><br>
+            <h3 style="color: #282634;">Desarrollador WEB <br>Soluciones Tecnológicas a medida</h3> <br>
+            <div id="nav">
+
+                <a href="index.html" style="color: white;" >Inicio</a> <b></b>
+                <a href="#soy" style="color: white;">Quién soy</a><b></b>
+                <a href="#ciudadl" style="color: white;">Mi ciudad</a><b></b>
+                <a href="#hobbies"style="color: white;">Pasatiempos</a><b></b>
+                <a href="#motivos" style="color: white;">Quiero PROGRAMAR</a><b></b>
+                <a href="#proyectos" style="color: white;">Proyectos desarrollados</a><b></b>
+                <a href="https://www.linkedin.com/in/mf2465/" target="_blank" style="color: white;">Experiencia laboral</a>
+                <a href="#contacto" style="color: white;">Contacto</a><b></b>
+                
+            </div><br>
+            </th>
+            <td width="2"></td>
+            <td width="10" style="background-color: #7998be;"></td>
+            <td width="2"></td>
+            <td width="10" style="background-color: #7998be;"></td>
+            </tr>
+            </table>
+
+    </header>
+
+<div id="main" class="div-0">
+    <a name="soy"></a><br>
+    <h2>Hola! Soy Miguel</h2>
+    <p>Me presento como una persona activa, responsable, ordenada, creativa, flexible y con capacidad para trabajar en equipo.<br>Tengo formación técnica, administrativa y comercial; conocimientos que fueron adquiridos durante varios años de actividad laboral en diferentes rubros.<br>Cuento con un fluido manejo del portugués, conocimientos de inglés y herramientas informáticas.<br>Estoy a disposición para ayudarte a concretar tu proyecto de manera eficiente. No dudes en contactarme!</p><br>
+</div>
+
+<div id="section1" class="div-3">
+    <a name="ciudad"></a>
+    <br>
+        <!-- <h2>¿Dónde queda Bahía Blanca?</h2> -->
+        <table> <tr> 
+            <th>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1126719.7966736797!2d-62.5597077470488!3d-38.73724156932926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcabdc1302bd%3A0x76d1d88d241e7a11!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1693258708989!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </th>    
+            <th><td><h2>¿Dónde queda Bahía Blanca?</h2><br>
+        <p>Bahía Blanca es una ciudad argentina ubicada en el sur de la provincia de Buenos Aires. Es la novena ciudad más poblada del país, aunque no el noveno conglomerado. Dista 627 km de La Plata (capital provincial) y 636 km de la Ciudad Autónoma de Buenos Aires, situándose en la región pampeana, a poca distancia del límite con la región patagónica. Fue fundada el 11 de abril de 1828 con el nombre de «Fortaleza Protectora Argentina» por el coronel Ramón Bernabé Estomba.<br><br>
+
+            La ciudad se ha consolidado como uno de los más importantes centros comerciales, culturales, educativos y deportivos del interior del país. Además, cuenta con importantes museos y bibliotecas y su infraestructura turística incluye circuitos arquitectónicos, paseos y parques. Constituye un nudo de transportes y comunicaciones entre los flujos económicos del suroeste de la provincia de Buenos Aires y del valle del Río Negro. Además, gracias a su infraestructura terrestre, marítima y las cercanías al puerto comercial de aguas profundas ubicado en la vecina localidad de Ingeniero White, establece relaciones a nivel regional, nacional e internacional.<br><br>
+            
+            Dado el crecimiento poblacional de la localidad actualmente forma una unidad continua con otras localidades del partido de Bahía Blanca, formando lo que se conoce como Gran Bahía Blanca. Según datos del censo nacional de 2022, el aglomerado cuenta con 335.180 habitantes.
+            </p>
+        </td>
+        </th>
+
+        </tr>
+        </table><br>
+</div>
+    <!-- <table>
+        <tr>
+        <th>Celda 1, linea 1</th>
+        <th> Celda 2, linea 1</th>
+        </tr>
+        <tr>
+        <td> Celda 1, linea 2</td>
+        <td> Celda 2, linea 2</td>
+        </tr>
+        </table> -->
+        
+    <div id="section2">
+        <a name="hobbies"></a>
+        <h2>Tiempo libre</h2>
+        <p>Las actividades que realizo y disfruto durante el tiempo de ocio, son las siguientes:</p>
+        <ul>
+            <li>Caminar y escuchar podcasts de Filosofía en portugués.</li>
+            <li>Estudio percusión en un bloco de música afrobahiana llamado BomBahia.</li>
+            <li>Toco pandeiro brasilero.</li>
+            <li>Soy radioaficionado, distintiva LU1EUO.</li>
+            <li>Seguidor activo de viajeros por el mundo en motos y vehículos camperizados.</li>
+        </ul><br>
+    </div>
+        
+    <div id="section3" class="div-1">
+        <a name="motivos"></a><br>
+            <h2 align="center" >Herramientas para mi portafolio Laboral</h2>
+            <p>Actualmente desempeño tareas como Técnico Superior de Laboratorio en el <a href="https://www.hidraulica.uns.edu.ar" target="_blank">Laboratorio de Hidráulica</a>, perteneciente al Departamento Ingeniería de la <a href="https://www.uns.edu.ar" target="_blank">Universidad Nacional del Sur</a>. Me defino como un desarrollador de soluciones tecnológicas en el campo de la hidráulica, tanto en el ámbito académico como de investigación.<br><br>
+            Considero de suma importancia la capacitación contínua en herramientas para la curaduría de datos que realizo de los cursos hídricos de mi región geográfica (cuencas Napostá Grande, Sauce Chico y Grande).<br><br>
+            La posibilidad de aplicación y transferencia de los conocimientos a adquirir en el curso seguramente se verán reflejados en las futuras publicaciones en revistas o congresos de divulgación científica. Cito algunos ejemplos relacionados con la temática donde participé como autor:<br>
+            <ul>
+                <li>Sistema de Alerta Temprana Napostá. Tecnología al servicio de la comunidad de Bahía Blanca ++ XI Congreso de Ecología y Manejo de Ecosistemas Acuáticos Pampeanos Bahía Blanca, Buenos Aires ARGENTINA 2022 ISBN: 978-987-1648-45-0 pág del 434 al 437 Noviembre 2022 11 de noviembre de 2022</li>
+                <li>Alojamiento, procesamiento y visualización de datos limnigráficos en Puente Canessa con Sistema de Telemetría propio ++ Actas de las Jornadas del Agua del Sudoeste Bonaerense / EDIUNS - ISBN 978 987 655 2356 28 de noviembre de 2019</li>
+                <li>Instalación de un equipo limnigráfico en la Cuenca Media del Arroyo Napostá Grande para Monitoreo Ambiental ++ Actas de las Jornadas del Agua del Sudoeste Bonaerense / EDIUNS - ISBN 978 987 655 2356 28 de noviembre de 2019</li>
+                <li>IMPORTANCIA DEL MONITOREO AMBIENTAL PARA LA TOMA DE DECISIONES SOBRE UN RECURSO HÍDRICO DEL SUDOESTE BONAERENSE ++ Actas de la V Reunión Argentina de Geoquímica de la Superficie / Asociación Argentina de Sedimentología - ISBN: 978-987-96296-7-3 2019</li>
+                <li>Módulo Adquisidor Remoto para actualizar Sondas Limnigráficas de cuencas proveedoras de agua a embalse ++ COMPDES 2023 XVI CONGRESO DE COMPUTACIÓN PARA EL DESARROLLO, Bluefields (Nicaragua) del 26 al 28 de julio de 2023. Temática: Tecnologías para reducción de riesgo ante desastres naturales, Geo-informática, Soluciones ante riesgos ambientales.</li>
+            </ul>
+            Me gradué como Técnico Universitario en Electrónica, no soy programador nativo. Es por ello que quisiera formalizar mis conocimientos informáticos e incorporar nuevas herramientas para mi portafolio de soluciones al medio que me vinculo. Al momento, he desarrollado el <a href="https://www.hidraulica.uns.edu.ar" target="_blank">sitio institucional del Laboratorio de Hidráulica</a>, implementado un <a href="https://www.hidraulica.uns.edu.ar/ingresoST.php" target="_blank">Sistema de Telemetría</a>, <a href="https://www.hidraulica.uns.edu.ar/reservas" target="_blank">Sistema de Reservas de Uso de Laboratorio</a> y construcción de prototipos electrónicos para mediciones de variables ambientales que requieren de programación Front-end y Back-end.
+            </p><br>
+            </div>
+
+    <div id="section4" class="div-6">
+        <a name="proyectos"></a><br>
+            <h2>Proyectos en curso</h2>
+            Puedo mencionar uno de ellos, relacionados con la informática:<br><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7uvaLS0obIY?si=KgduUjZc3wiGKlwm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
+    </div>
+
+    <div id="section5">
+        <a name="contacto"></a>
+        <h2>Formulario de contacto</h2>
+        <form action="mailto:mf2465@hotmail.com" method="post"
+enctype="text/plain"> Nombre <input type="text" name="nombre" size="30"
+maxlength="100">
+<br><br>
+Correo electrónico <input type="text" name="email" size="25" maxlength="100" value="email@email.com">
+<br><!-- 
+Población <input type="text" name="poblacion" size="20" maxlength="60">
+<br>
+Sexo
+<br>
+<input type="radio" name="sexo" value="Varon" checked> Hombre
+<br>
+<input type="radio" name="sexo" value="Hembra"> Mujer
+<br>
+<br>
+Frecuencia de los viajes
+<br>
+<select name="utilizacion">
+<option value="1">Varias veces al dia
+<option value="2">Una vez al dia
+<option value="3">Varias veces a la semana
+<option value="4">varias veces al mes
+</select>
+<br> -->
+<br>
+Mensaje
+<br>
+<textarea cols="30" rows="7" name="comentarios"></textarea>
+<br>
+<br>
+<input type="submit" value="Enviar">
+<b></b>
+<input type="Reset" value="Borrar todo">
+</form>
+   <br>         
+</div>
+
+<div id="footer" class="div-3">
+        <table align="center">
+            <td> <h4>sitio desarrollado por <a href="https://www.linkedin.com/in/mf2465/" target="_blank">Miguel Flores</a></h4>
+            </td>
+       </table>
+    </div>
+</body>
+</html>
